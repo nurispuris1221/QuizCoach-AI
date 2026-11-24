@@ -1,0 +1,7 @@
+[
+ {"question":"What is the output of the following code?", "code":"print(2 ** 3)", "options":["6","8","9","5"], "answer":1, "topic":"Operators", "explanation":"The ** operator raises a number to a power. 2 ** 3 is 2 × 2 × 2 = 8."},
+ {"question":"Which keyword defines a function in Python?", "code":"___ greet():\n    print('Hello')", "options":["func","function","def","define"], "answer":2, "topic":"Functions", "explanation":"Use def followed by a function name, parentheses and a colon. The function body is indented."},
+ {"question":"What does this expression return?", "code":"len([1, 2, 3])", "options":["2","4","3","1"], "answer":2, "topic":"Lists", "explanation":"len() returns the number of items. This list contains exactly three items."},
+ {"question":"Which Python data type is immutable?", "code":"# An immutable object cannot be changed in place.", "options":["List","Dictionary","Set","Tuple"], "answer":3, "topic":"Data types", "explanation":"A tuple is immutable: its element references cannot be replaced after creation. Lists, dictionaries and sets are mutable."},
+ {"question":"What is the output of the following code?", "code":"print(10 // 3)", "options":["3","3.33","1","4"], "answer":0, "topic":"Floor division", "explanation":"The // operator performs floor division. 10 divided by 3 is about 3.33, whose floor is 3."}
+]
